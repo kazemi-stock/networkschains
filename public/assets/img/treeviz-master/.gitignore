@@ -1,0 +1,5 @@
+**/node_modules/**
+**/dist/typescript/**
+**/storybook-static/**
+yarn-error.log
+.DS_Store

@@ -1,0 +1,144 @@
+body { background: #eeeeee;}
+@font-face {
+    font-family: 'yekan';
+    src:  url('../../fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'naskh';
+    src:  url('../../fonts/naskh.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { text-align: right ; font-family: naskh}
+.yekan { font-family: yekan ; font-size: 17px ; font-weight: normal }
+.tahoma { font-family: tahoma ; font-size: 17px ; font-weight: normal }
+#main-wrapper[data-sidebartype=full] .page-wrapper {
+    margin-right: 250px !important;
+    margin-left: 0px !important;
+
+}
+
+
+.left-sidebar { right: 0px   }
+
+.sidebar-nav ul .sidebar-item .sidebar-link {
+    color: #fff;
+    padding: 14px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 25px;
+    opacity: 0.6;
+
+
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+
+}
+
+
+.topbar .dropdown-menu {
+    left: 0px;
+    right: auto;
+}
+
+.sidebar-nav .has-arrow:after {
+    left: 15px ;
+    right: auto;
+}
+
+
+.chat-content {
+    padding-right: 15px;
+    padding-left: 0px ;
+}
+
+.chat-list .chat-item .chat-img {
+    float: right;}
+
+.card , input { direction: rtl}
+.card > .border-bottom { padding:  15px ;
+
+    /*background-image: linear-gradient(to right, #ffffff , #f1f1f1);*/
+
+}
+.card > .border-bottom h4 { font-weight: normal}
+.card.no-shadow { box-shadow: none !important;}
+
+.btn { color: white !important;}
+.card { box-shadow:  0 1px 5px 1px rgba(0,0,0,.2)}
+
+.btn .spiner { display: none}
+
+.tab-pane {  padding: 20px ;  direction: rtl}
+.table th { background-color: white ;
+    border-top: none; border-bottom: solid 1px #e6e6e6}
+.tab-wrapper { background-color: white ;  }
+.tab-wrapper.transparent  { background-color: transparent ;  }
+.nav-wrapper { background-color: #eeeeee ; padding: 20px 0px }
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #383838;
+}
+.nav-pills .nav-link { color:#383838 ; background-color: #dedede ; margin-right: 10px ;border: solid 1px #d2d2d2; }
+.nav-pills .nav-link .mdi  { margin-left: 10px  }
+
+.btn-primary {
+    color: #fff;
+    background-color: #60b3ee;
+    border-color: #60acee;
+}
+
+.wallet-coine-card {
+    text-align: center;
+    padding-top: 10px ; padding-bottom: 10px ;
+}
+
+.wallet-coine-card .btn-group .mdi {
+    color : #ffb848;
+}
+.wallet-coine-card img { width: 70px ; height: 70px ; margin-bottom: 10px }
+.wallet-coine-card .btn-warning .mdi { color: black}
+.wallet-coine-card .btn-warning  { color: #8a5a0f !important;
+    border: none !important;}
+.wallet-coine-card .pjax button { height: 100% }
+
+
+.custom-control.custom-checkbox{padding-left: 0;}
+
+label.custom-control-label {
+    position: relative;
+    padding-right: 1.5rem;
+}
+
+label.custom-control-label::before, label.custom-control-label::after{
+    right: 0;
+    left: auto;
+}
+
+.gray-card { border: solid 2px #e6e4e4 }
+.gray-card .border-bottom { background-color: #e2e2e2}
+
+
+.blink_me {
+    color: #ff0130;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.3;
+        color: #ff8e01;
+    }
+}
